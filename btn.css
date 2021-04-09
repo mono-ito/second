@@ -1,0 +1,102 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500px;
+}
+
+a{
+   text-decoration: none;
+   font-size: 12px;
+   display: block;
+   height: 50px;
+   width: 150px;
+   font-weight: bold;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    line-height: 50px;
+    margin: 20px;
+}
+
+.btn1{
+   border: solid 1px #333;
+   color: #333;
+}
+
+.btn1:hover{
+    background-color: #333;
+    transition: 1s;
+    color: white;
+}
+
+.btn1-a{
+    color: #333;
+}
+
+.btn1-a:hover{
+    color: white;
+}
+
+.btn2{
+    border: solid 3px #333;
+    color: #333;
+    border-radius: 50px;
+    position: relative;
+    display: inline-block;
+    border: 2px solid #333;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.btn2::before{
+    border-radius: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    content: '';
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: transform .3s;
+    background: linear-gradient(to right,#636363,#BBBBBB);
+}
+
+.btn2:hover{
+    color: white;
+}
+
+.btn2:hover::before{
+    transform-origin: left top;
+    transform: scale(1, 1);
+}
+
+.btn2-a{
+    color: #333;
+}
+
+.btn2-a:hover{
+    color: white;
+}
+
+.btn3{
+    background-color: lightgray;
+}
+
+.btn3:hover{
+    transition: 1s;
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+
+
+.btn3-a{
+
+}
