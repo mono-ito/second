@@ -1,0 +1,71 @@
+.btn-1-text{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    width: 400px;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: Noto Sans CJK JP;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    border:1px solid black;
+}
+.btn-1-text:hover{
+    color: white;
+}
+.btn-2-text{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    width: 400px;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: Noto Sans CJK JP;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+.btn-2-text:hover{
+    box-shadow: 0 0 8px #606060;
+}
+.btn-3-text{
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    height: 80px;
+    width: 400px;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: Noto Sans CJK JP;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    border:3px solid black;
+    border-radius: 60px;
+}
+.btn-3-text:hover{
+    color: white;
+    border: 3px solid ;
+}
+
+.btn-1{
+    height: 80px;
+    width: 400px;
+}
+.btn-1 :hover{
+    background-color: black;
+}
+.btn-2{
+    height: 80px;
+    width: 400px;
+}
+.btn-3{
+    height: 80px;
+    width: 400px;
+}
+.btn-3 :hover{
+    background: linear-gradient(to right, #BEBEBE,  #606060);
+}
